@@ -50,7 +50,7 @@ To promote native-language computing by allowing users to write simple programs 
 
 ## 🧪 How to Run
 
-1. Compile the Lex and Yacc files:
+ Compile the Lex and Yacc files:
    ```bash
    lex garhwali.l
    yacc -d garhwali.y
