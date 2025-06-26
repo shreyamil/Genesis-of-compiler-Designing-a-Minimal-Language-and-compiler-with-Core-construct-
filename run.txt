@@ -1,0 +1,19 @@
+flex -o lex.yy.c main.l
+bison -d main.y
+gcc -o gadwali main.tab.c lex.yy.c -lm
+./gadwali < your_program.gad
+
+
+
+
+
+
+
+
+
+///
+for lexer and parser 
+flex lexer.l
+bison -d parser.y
+gcc lex.yy.c parser.tab.c -o compiler -lm
+./compiler < input_file.txt

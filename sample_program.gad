@@ -1,0 +1,24 @@
+SHURUAT_KANU_CHAUN {
+    ANK a;
+    ANK b;
+    ANK c;
+    
+    a = 10;
+    b = 5;
+    c = a + b;
+    
+    LIKHNU_CHAUN_ME(c);
+    
+    YADI (a > b) {
+        LIKHNU_CHAUN_ME(a);
+    } NITHAR {
+        LIKHNU_CHAUN_ME(b);
+    }
+    
+    ANK i;
+    i = 1;
+    GOL_CHAKARI_KI_BHULI (i < 5) {
+        LIKHNU_CHAUN_ME(i);
+        i = i + 1;
+    }
+}
