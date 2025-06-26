@@ -1,0 +1,2 @@
+# Genesis-of-compiler-Designing-a-Minimal-Language-and-compiler-with-Core-construct-
+A custom-built compiler that translates code written in the Garhwali dialect into intermediate representations. Designed using Lex and Yacc (Bison), this project enables native-language programming while supporting syntax analysis, semantic checks, abstract syntax tree generation, and intermediate code generation.
